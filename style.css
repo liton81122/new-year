@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header part start */
+
+.banner{
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+}
+.header-text{
+    width: 400px; 
+    margin-left: 800px;
+    padding-top: 150px;
+    padding-bottom: 190px;
+}
+h1{
+    font-size: 45px;
+    color: white;
+    
+}
+.btn-contact-us{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #005FAC;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.width{
+    width: 400px;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+/* main part start */
+
+#heading-title-one{
+    color: black;
+    font-size: 45px;
+}
+
+.flex-main-part{
+    display: flex;
+    margin: 0 auto;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.fa-solid{
+    color: rgb(15, 230, 15);
+}
+#heading-title-two{
+    color: black; 
+    text-align: center; 
+    font-size: 45px; 
+    margin-bottom: 50px;
+}
+.my-plan-part{
+    display: flex;
+    width: 950px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+.my-plan-part h3{
+    color: gray;
+}
+.linear-background{
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 950px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+.btn-call-now{
+    background-color: white;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: bold;
+    padding:16px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+
+/* bonus part */
+
+#service-title{
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+hr{
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.service-part{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+.service-part img{
+    display: block;
+    margin:  0 auto;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+.card{
+    width: 200px;
+    height: 280px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+/* footer part start */
+
+.footer-part{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.future-part{
+    width: 450px;
+    margin: 0 auto;
+}
+.future-part p{
+    color: lightgray;
+}
+.social-icon{
+    margin-left: 10px;
+}
+.subscribe-part{
+    width: 450px;
+    margin: 0 auto;
+}
+#email{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 100px;
+    border-radius: 5px;
+}
+.btn-subscribe{
+    background-color: #005FAC;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
