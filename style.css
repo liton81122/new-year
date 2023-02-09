@@ -7,7 +7,7 @@
 /* header part start */
 
 .banner{
-    background-image: url('../images/banner/banner3.png');
+    background-image: url('./images/banner/banner3.png');
     background-size: cover;
 }
 .header-text{
